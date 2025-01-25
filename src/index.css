@@ -10,4 +10,27 @@
     .img-shadow2 {
         filter: drop-shadow(10px 30px 15px #3030307a );
     }
+
+    .input-style {
+        @apply px-4 py-2 border-[1px] border-gray-400 rounded-md;
+    }
+
+    /* .primary-btn {
+        @apply bg-primary text-white px-4 py-2 rounded-md hover:bg-transparent duration-200;
+    } */
+}
+
+.primary-btn {
+    background: #f19509;
+    color: white;
+    border: 1px solid transparent;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 400ms ease-in-out;
+}
+
+.primary-btn:hover {
+    background: transparent;
+    color: #1a1f25;
+    border-color: #f19509;
 }
